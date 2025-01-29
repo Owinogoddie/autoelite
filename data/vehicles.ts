@@ -51,7 +51,7 @@ export const vehicles: Vehicle[] = [
     bodyType: 'Sedan',
     color: 'Obsidian Black',
     images: [
-      'https://images.unsplash.com/photo-1622194986967-97cd69a39b95',
+      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8',
       'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8',
     ],
     features: [
@@ -199,8 +199,8 @@ export const vehicles: Vehicle[] = [
     bodyType: 'Sedan',
     color: 'Daytona Gray',
     images: [
-      'https://images.unsplash.com/photo-1614200187524-dc4b892d1054',
-      'https://images.unsplash.com/photo-1642201855395-1c8c86505149'
+      'https://images.unsplash.com/photo-1617195920950-1145bf9a9c72?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXVkaSUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D',
+      'https://images.unsplash.com/photo-1540066019607-e5f69323a8dc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGF1ZGl8ZW58MHx8MHx8fDA%3D',
     ],
     features: [
       'Carbon Fiber Package',
