@@ -6,12 +6,14 @@ import { WhyChooseUs } from './_components/WhyChooseUs';
 import { Testimonials } from './_components/Testimonials';
 import { Stats } from './_components/Stats';
 import { CallToAction } from './_components/CallToAction';
+// import { PopularVehicles } from './_components/PopularVehicles';
 
 export default function Home() {
   return (
     <main>
       <Hero />
       <FeaturedVehicles />
+      {/* <PopularVehicles /> */}
       <WhyChooseUs />
       <Stats />
       <Testimonials />
