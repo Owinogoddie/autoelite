@@ -31,20 +31,21 @@ export const WhyChooseUs = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           className="text-center mb-12"
         >
           <h2 className="text-3xl font-bold text-gray-900">Why Choose AutoElite Kenya</h2>
           <p className="mt-4 text-gray-600">Experience the difference with our premium services</p>
         </motion.div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="text-center"
+              className="relative p-6 bg-white rounded-xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] hover:shadow-[0_20px_60px_rgba(8,_112,_184,_0.9)] transition-shadow duration-300"
             >
               <div className="flex justify-center mb-4">
                 <feature.icon className="h-12 w-12 text-primary-600" />
